@@ -27,7 +27,6 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 1px solid red;
 }
 .board h3 {
   padding: 1rem;
@@ -46,10 +45,21 @@ body {
   margin: 0.5rem auto;
   border-radius: 4px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.125rem;
   background-color: #1a1a1c;
 }
 .card .status {
   width: 30px;
   height: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.card .status--green {
+  background-color: green;
+}
+.card .status--blue {
+  background-color: blue;
+}
+.card .status--red {
+  background-color: red;
 }/*# sourceMappingURL=global.css.map */

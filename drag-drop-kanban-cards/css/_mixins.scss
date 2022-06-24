@@ -1,5 +1,4 @@
-@mixin flexCenter($eixoY, $eixoX) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@mixin flexCenter($bgcolor, $color: white) {
+  background-color: $bgcolor;
+  color: $color;
 }
