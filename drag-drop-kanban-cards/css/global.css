@@ -1,0 +1,55 @@
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #130f0d;
+  color: white;
+}
+
+.boards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.board {
+  background-color: #141316;
+  border: 1px solid rgba(253, 149, 31, 0.0666666667);
+  border-radius: 4px;
+  margin-top: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid red;
+}
+.board h3 {
+  padding: 1rem;
+  color: rgba(253, 149, 31, 0.8);
+}
+.board .dropzone {
+  min-width: 22px;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 0px 2px 2px -1px rgba(253, 149, 31, 0.8);
+  padding: 1rem;
+  width: 250px;
+  margin: 0.5rem auto;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #1a1a1c;
+}
+.card .status {
+  width: 30px;
+  height: 8px;
+}/*# sourceMappingURL=global.css.map */
