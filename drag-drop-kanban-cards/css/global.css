@@ -62,4 +62,20 @@ body {
 }
 .card .status--red {
   background-color: red;
+}
+.highlight {
+  background-color: rgba(253, 149, 31, 0.0352941176);
+}
+
+.card,
+.dropzone {
+  transition: 0.4s;
+}
+
+.is-dragging {
+  opacity: 0.3;
+}
+
+.over {
+  background-color: rgba(76, 209, 55, 0.0666666667);
 }/*# sourceMappingURL=global.css.map */

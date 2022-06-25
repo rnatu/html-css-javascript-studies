@@ -80,3 +80,20 @@ body {
     // @include flexCenter(pink, red);
   }
 }
+
+.highlight {
+  background-color: #fd951f09;
+}
+
+.card,
+.dropzone {
+  transition: 0.4s;
+}
+
+.is-dragging {
+  opacity: 0.3;
+}
+
+.over {
+  background-color: #4cd13711;
+}
