@@ -34,14 +34,13 @@ dropzones.forEach((dropzone) => {
   //   dropzone.addEventListener("dragenter", dragenter);
   dropzone.addEventListener("dragleave", () => dragleave(dropzone));
   dropzone.addEventListener("dragover", (event) => dragover(event, dropzone));
-  //   dropzone.addEventListener("drop", drop);
+  dropzone.addEventListener("drop", () => drop(dropzone));
 });
 
 // function dragenter() {
 //   console.log("dragenter");
 // }
 function dragleave(dropzone) {
-  console.log(dropzone);
   dropzone.classList.remove("over");
 }
 
@@ -49,6 +48,6 @@ function dragover(event, dropzone) {
   event.preventDefault();
   dropzone.classList.add("over");
 }
-// function drop() {
-//   console.log("drop");
-// }
+function drop(dropzone) {
+  dropzone.classList.remove("over");
+}
