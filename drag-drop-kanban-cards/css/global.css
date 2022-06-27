@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: center;
 }
 
 .board {
@@ -33,7 +34,7 @@ body {
   color: rgba(253, 149, 31, 0.8);
 }
 .board .dropzone {
-  min-width: 22px;
+  min-width: 282px;
   min-height: 200px;
   padding: 1rem;
 }
@@ -47,6 +48,10 @@ body {
   font-weight: 600;
   font-size: 1.125rem;
   background-color: #1a1a1c;
+}
+.card:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 .card .status {
   width: 30px;

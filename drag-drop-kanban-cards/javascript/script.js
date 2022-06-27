@@ -40,14 +40,21 @@ dropzones.forEach((dropzone) => {
 // function dragenter() {
 //   console.log("dragenter");
 // }
-function dragleave(dropzone) {
-  dropzone.classList.remove("over");
+
+function dragleave(dropzoneElement) {
+  dropzoneElement.classList.remove("over");
 }
 
-function dragover(event, dropzone) {
+function dragover(event, dropzoneElement) {
+  // this = dropzone;
   event.preventDefault();
-  dropzone.classList.add("over");
+  dropzoneElement.classList.add("over");
+
+  // get dragging card
+  const cardBeingDragged = document.querySelector(".is-dragging");
+
+  dropzoneElement.appendChild(cardBeingDragged);
 }
-function drop(dropzone) {
-  dropzone.classList.remove("over");
+function drop(dropzoneElement) {
+  dropzoneElement.classList.remove("over");
 }
