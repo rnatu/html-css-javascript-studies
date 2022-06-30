@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  background-color: #130f0d;
-  color: white;
+  background-color: #1f2229;
+  color: rgb(202, 202, 202);
 }
 
 .boards {
@@ -21,8 +21,8 @@ body {
 }
 
 .board {
-  background-color: #141316;
-  border: 1px solid rgba(253, 149, 31, 0.0666666667);
+  background-color: #242732;
+  border: 1px solid #1a1c22;
   border-radius: 4px;
   margin-top: 1rem;
   height: -webkit-fit-content;
@@ -31,7 +31,7 @@ body {
 }
 .board h3 {
   padding: 1rem;
-  color: rgba(253, 149, 31, 0.8);
+  color: #ffffff;
 }
 .board .dropzone {
   min-width: 282px;
@@ -40,14 +40,14 @@ body {
 }
 
 .card {
-  box-shadow: 0px 2px 2px -1px rgba(253, 149, 31, 0.8);
+  box-shadow: 0px 2px 2px -1px #818181;
   padding: 1rem;
   width: 250px;
   margin: 0.5rem auto;
   border-radius: 4px;
   font-weight: 600;
   font-size: 1.125rem;
-  background-color: #1a1a1c;
+  background-color: #1f2229;
 }
 .card:hover {
   cursor: -webkit-grab;
@@ -59,17 +59,17 @@ body {
   border-radius: 8px;
   margin-bottom: 8px;
 }
-.card .status--green {
+.card .status--todo {
   background-color: green;
 }
-.card .status--blue {
-  background-color: blue;
+.card .status--inProgress {
+  background-color: #faa801;
 }
-.card .status--red {
-  background-color: red;
+.card .status--done {
+  background-color: #ff5630;
 }
 .highlight {
-  background-color: rgba(253, 149, 31, 0.0352941176);
+  background-color: rgba(255, 255, 255, 0.0352941176);
 }
 
 .card,

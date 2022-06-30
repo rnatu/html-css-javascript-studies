@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: $bg-dark;
-  color: white;
+  color: rgb(202, 202, 202);
 }
 
 .boards {
@@ -25,8 +25,8 @@ body {
 }
 
 .board {
-  background-color: #141316;
-  border: 1px solid #fd951f11;
+  background-color: #242732;
+  border: 1px solid #1a1c22;
   border-radius: 4px;
 
   margin-top: 1rem;
@@ -35,7 +35,7 @@ body {
 
   h3 {
     padding: 1rem;
-    color: $orange;
+    color: #ffffff;
   }
 
   .dropzone {
@@ -47,7 +47,7 @@ body {
 }
 
 .card {
-  box-shadow: 0px 2px 2px -1px $orange;
+  box-shadow: 0px 2px 2px -1px #818181;
 
   padding: 1rem;
   width: 250px;
@@ -56,7 +56,7 @@ body {
   border-radius: 4px;
   font-weight: 600;
   font-size: 1.125rem;
-  background-color: #1a1a1c;
+  background-color: #1f2229;
 
   &:hover {
     cursor: grab;
@@ -69,16 +69,16 @@ body {
     margin-bottom: 8px;
   }
 
-  .status--green {
+  .status--todo {
     background-color: green;
   }
 
-  .status--blue {
-    background-color: blue;
+  .status--inProgress {
+    background-color: #faa801;
   }
 
-  .status--red {
-    background-color: red;
+  .status--done {
+    background-color: #ff5630;
   }
 
   .content {
@@ -87,7 +87,7 @@ body {
 }
 
 .highlight {
-  background-color: #fd951f09;
+  background-color: #ffffff09;
 }
 
 .card,

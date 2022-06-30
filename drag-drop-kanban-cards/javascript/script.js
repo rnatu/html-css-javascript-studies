@@ -25,7 +25,6 @@ function dragend({ target }) {
     dropzone.classList.remove("highlight");
     target.classList.remove("is-dragging");
   });
-
   target.classList.remove("is-dragging");
 }
 
@@ -50,8 +49,29 @@ function dragover(event, dropzoneElement) {
   event.preventDefault();
   dropzoneElement.classList.add("over");
 
+  const actualDropzoneClassState = dropzoneElement.classList[1];
+
   // get dragging card
   const cardBeingDragged = document.querySelector(".is-dragging");
+
+  const status = cardBeingDragged.querySelector(".status");
+
+  const switchStatus = {
+    todo: () => {
+      status.classList.remove("status--inProgress", "status--done");
+      status.classList.add("status--todo");
+    },
+    inProgress: () => {
+      status.classList.remove("status--todo", "status--done");
+      status.classList.add("status--inProgress");
+    },
+    done: () => {
+      status.classList.remove("status--todo", "status--inProgress");
+      status.classList.add("status--done");
+    },
+  };
+
+  switchStatus[actualDropzoneClassState]();
 
   dropzoneElement.appendChild(cardBeingDragged);
 }
