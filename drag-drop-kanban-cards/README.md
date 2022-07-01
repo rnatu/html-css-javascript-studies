@@ -1,6 +1,5 @@
 <h1 align="center">
-<img alig src="https://raw.githubusercontent.com/MatheusHonorato/curso-front-end-marco-bruno/master/html-css-js.png" width=350 height="270" alt="Html css e javascript logo">
-  <br>
+<img src="https://raw.githubusercontent.com/MatheusHonorato/curso-front-end-marco-bruno/master/html-css-js.png" width=350 height="270" alt="Html css e javascript logo">
   <br>
     Drag and Drop – HTMl, CSS e JavaScript
 </h1>
