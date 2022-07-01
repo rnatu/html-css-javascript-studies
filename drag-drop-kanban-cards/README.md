@@ -27,8 +27,6 @@ Criei uma aplicação de gerenciamento de tarefas utilizando cards. Praticand
 
 ![Website gif](./drag-drop-gif.gif)
 
- <br />
-
 ## 📜 Sobre o projeto
 
 Nesta aplicação o meu principal objetivo foi criar um gerenciamento de tarefas utilizando cards, movendo o card entre os status disponíveis através de funções drag and drop nativas do Javascript (vanilla).
