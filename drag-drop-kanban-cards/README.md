@@ -25,7 +25,11 @@ Criei uma aplicação de gerenciamento de tarefas utilizando cards. Praticand
   <a href="#-Como-utilizar">Como utilizar</a>
 </p>
 
+<div align="center">
+
 ![Website gif](./drag-drop-gif.gif)
+
+</div>
 
 ## 📜 Sobre o projeto
 
